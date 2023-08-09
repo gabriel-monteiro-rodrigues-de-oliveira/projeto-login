@@ -10,27 +10,24 @@
 </head>
 <body>
     <main>
-        <section id="login-texto">
+        <section>
             <div id="login-imagem"></div>
             <h1>Login</h1>
             <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
         </section>
-        <section id="login-formulario">
+        <section>
             <form action="login.php" method="post">
-                <div class="formulario-informacoes">
+                <div class="dados">
                     <label for="iemail"></label>
-                    <span class="material-icons cor-icons">person</span><input type="email" name="email" id="iemail" placeholder="seu e-mail" maxlength="30" required> <br>
+                    <span class="material-icons dados-icones">person</span><input type="email" name="email" id="iemail" placeholder="seu e-mail" maxlength="30" required> <br>
                 </div>
-                <div class="formulario-informacoes">
+                <div class="dados">
                     <label for="isenha"></label>
-                    <span class="material-icons cor-icons">vpn_key</span><input type="password" name="senha" id="isenha" minlength="8" maxlength="20" placeholder="sua senha" required> <br>
+                    <span class="material-icons dados-icones">vpn_key</span><input type="password" name="senha" id="isenha" minlength="8" maxlength="20" placeholder="sua senha" required> <br>
                 </div>
-                <div id="formulario-botoes">
-                    <input id="botao-entrar" type="submit" value="Entrar"> <br>
-                    <a href="esqueci.html">Esqueci a senha <span id="icon-mail" class="material-icons">mail</span></a>
-                    <!--
-                        <input id="botao-esquecer" type="submit" value="Esqueci a senha"><span class="material-icons">mail</span>
-                    -->
+                <div id="botoes">
+                    <input id="entrar" type="submit" value="Entrar"> <br>
+                    <a href="esqueci.html">Esqueci a senha <span id="icone-mail" class="material-icons">mail</span></a>
                 </div>
             </form>
         </section>
