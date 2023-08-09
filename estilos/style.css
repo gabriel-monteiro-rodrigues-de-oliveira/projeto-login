@@ -31,6 +31,7 @@ main {
 .formulario-informacoes {
     background: var(--cor2);
     width: 200px;
+    border-radius: 5px;
     margin: auto;
     margin-bottom: 5px;
 }
@@ -43,15 +44,18 @@ main {
 #botao-entrar {
     margin: auto;
     margin-bottom: 5px;
+    border-radius: 5px;
 }
 
 .cor-icons {
     color: white;
+    vertical-align: middle;
 }
 
 .formulario-informacoes > input {
-    background: var(--cor1);
+    background: #45b6b2;
     padding: 10px;
+    border-radius: 5px;
 }
 
 #botao-entrar {
@@ -59,17 +63,23 @@ main {
     color: #FFFFFF;
     padding: 10px;
     width: 200px;
+    cursor: pointer;
 }
 
 #botao-entrar:hover {
     background: #156663;
-    cursor: pointer;
 }
 
 #botao-esquecer {
     color: #156663;
     padding: 10px;
     width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botao-esquecer:hover {
+    background: #42d1cc;
 }
 
 #botao-esquecer > .material-icons {
@@ -91,6 +101,28 @@ h1 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 13.3px;
     margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+a {
+    display: block;
+    border: 1px solid #42d1cc;
+    width: 200px;
+    height: 28px;
+    text-align: center;
+    color: #156663;
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+a:hover {
+    background: #42d1cc;
+}
+
+#icon-mail {
+    font-size: 12px;
 }
