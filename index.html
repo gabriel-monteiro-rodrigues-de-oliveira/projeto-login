@@ -7,29 +7,34 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/print.css" media="print">
+    <link rel="stylesheet" href="estilos/mobile.css" media="screen and (max-width: 770px)">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 770px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 1000px)">
 </head>
 <body>
     <main>
         <section>
             <div id="login-imagem"></div>
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-        </section>
-        <section>
-            <form action="login.php" method="post">
-                <div class="dados">
-                    <label for="iemail"></label>
-                    <span class="material-icons dados-icones">person</span><input type="email" name="email" id="iemail" placeholder="seu e-mail" maxlength="30" required> <br>
-                </div>
-                <div class="dados">
-                    <label for="isenha"></label>
-                    <span class="material-icons dados-icones">vpn_key</span><input type="password" name="senha" id="isenha" minlength="8" maxlength="20" placeholder="sua senha" required> <br>
-                </div>
-                <div id="botoes">
-                    <input id="entrar" type="submit" value="Entrar"> <br>
-                    <a href="esqueci.html">Esqueci a senha <span id="icone-mail" class="material-icons">mail</span></a>
-                </div>
-            </form>
+            <div id="login-texto">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                        </section>
+                        <section>
+                <form action="login.php" method="post">
+                    <div class="dados">
+                        <label for="iemail"></label>
+                        <span class="material-icons dados-icones">person</span><input type="email" name="email" id="iemail" placeholder="seu e-mail" maxlength="30" required> <br>
+                    </div>
+                    <div class="dados">
+                        <label for="isenha"></label>
+                        <span class="material-icons dados-icones">vpn_key</span><input type="password" name="senha" id="isenha" minlength="8" maxlength="20" placeholder="sua senha" required> <br>
+                    </div>
+                    <div id="botoes">
+                        <input id="entrar" type="submit" value="Entrar"> <br>
+                        <a href="esqueci.html">Esqueci a senha <span id="icone-mail" class="material-icons">mail</span></a>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
 </body>
