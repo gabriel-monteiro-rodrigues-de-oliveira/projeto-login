@@ -3,45 +3,45 @@
 body { background: var(--cor2); }
 
 main {
-    width: 250px;
-    height: 520px;
+    width: 15.625em;
+    height: 32.5em;
     transform: translate(-50%, 20%);
 }
 
 #login-imagem {
-    width: 250px;
-    height: 200px;
-    margin-bottom: 10px;
-    border-radius: 20px 20px 0 0;
+    width: 15.625em;
+    height: 12.5em;
+    margin-bottom: 0.625em;
+    border-radius: 1.25em 1.25em 0 0;
 }
 
 p {
-    font-size: 13.3px;
-    margin: auto auto 5px 10px;
+    font-size: 0.83125em;
+    margin: auto auto 0.3125em 0.625em;
 }
 
 .dados {
-    width: 230px;
-    margin: auto auto 5px auto;
+    width: 14.375em;
+    margin: auto auto 0.3125em auto;
 }
 
 .dados-icones {
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 .dados > input {
-    padding: 10px;
-    margin-left: 9px;
-    width: 156px;
+    padding: 0.625em;
+    margin-left: 0.5625em;
+    width: 9.75em;
 }
 
-#botoes { width: 230px; }
+#botoes { width: 14.375em; }
 
-#entrar { width: 230px; }
+#entrar { width: 14.375em; }
 
 a {
-    width: 230px;
-    height: 29px;
+    width: 14.375em;
+    height: 1.8125em;
 }
 
 @media print { .dados > input { border: 0 solid black; } }
