@@ -23,7 +23,7 @@ main {
 }
 
 #login-imagem {
-    background: #49a09d url('../imagens/metal.jpg') no-repeat bottom center fixed;
+    background: #49a09d url('../imagens/metal.jpg') no-repeat fixed bottom center;
     background-size: cover;
 }
 
