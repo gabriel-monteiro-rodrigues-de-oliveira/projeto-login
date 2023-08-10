@@ -9,6 +9,7 @@ main {
     width: 46.875em;
     height: 18.125em;
     transform: translate(-50%, 110%);
+    transition: height 1s;
 }
 
 #login-imagem {

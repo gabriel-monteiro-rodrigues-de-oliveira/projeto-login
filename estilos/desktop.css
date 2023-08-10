@@ -4,6 +4,7 @@ main {
     width: 59.375em;
     height: 20.3125em;
     transform: translate(-50%, 70%);
+    transition: height 1s;
 }
 
 main > section { display: block; }
