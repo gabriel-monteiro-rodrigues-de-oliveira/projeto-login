@@ -10,10 +10,8 @@ main {
 }
 
 #login-imagem {
-    background: #49a09d url('../imagens/metal.jpg') no-repeat fixed bottom center;
-    background-size: cover;
-    width: 15.625em;
-    height: 12.5em;
+    width: 900px;
+    height: 900px;
     margin-bottom: 0.625em;
     border-radius: 1.25em 1.25em 0 0;
 }
