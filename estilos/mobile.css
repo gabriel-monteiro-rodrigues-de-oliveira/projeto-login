@@ -5,6 +5,7 @@ body { background: var(--cor2); }
 main {
     width: 250px;
     height: 520px;
+    transform: translate(-50%, 35%);
 }
 
 #login-imagem {
