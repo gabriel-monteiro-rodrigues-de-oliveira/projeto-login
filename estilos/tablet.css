@@ -24,11 +24,14 @@ p {
 }
 
 .dados {
-    width: 700px;
-    margin: auto auto 5px auto;
+    float: right;
+    width: 467px;
+    margin: auto 20px 5px auto;
 }
 
-.dados > input { width: 410px; }
+.dados > input {
+    width: 403px;
+}
 
 #botoes { width: 250px; }
 
